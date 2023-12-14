@@ -21,9 +21,6 @@ namespace Exercise
             thread1.Start();
             thread2.Start();
             thread3.Start();
-            thread1.Join();
-            thread2.Join();
-            thread3.Join();
 
             Console.WriteLine("Все потоки завершены");
             Console.WriteLine("Нажмите Enter");
